@@ -1,0 +1,16 @@
+.container_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 50px;
+}
+
+.file_order {
+    border: 2px solid;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
