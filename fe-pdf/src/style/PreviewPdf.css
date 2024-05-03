@@ -1,45 +1,48 @@
-.button_addpdf {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    background-color: #f4511e;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
-  
-  .button_addpdf span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button_addpdf span:after {
-    content: '\00bb';
-    /* position: absolute; */
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button_addpdf:hover span {
-    padding-right: 25px;
-  }
-  
-  .button_addpdf:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ff6f3c;
+  border-right: 2px solid black;
+  min-height: 100vh;
+}
 
-  .text_file{
-    background-color: none;
-  }
+.custom-file-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border: 2px solid white;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px; 
+  border-radius: 10px;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+}
+
+.custom-file-input:hover {
+  background-color: white;
+  color: black;
+}
+
+.preview {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 90%;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+img,
+iframe {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,10 +1,23 @@
-.home_container{
+.home_container {
     display: flex;
-    align-items: center;
     flex-direction: row;
-    
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: none;
 }
 
-.order_container{
-    border-right: 2px solid;
+.content_box1 {
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.content_box2 {
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.content_box3 {
+    flex-grow: 1;
+    box-sizing: border-box;
 }

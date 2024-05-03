@@ -3,14 +3,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: nowrap;
-    padding-right: 50px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding: 50px;        
+    box-sizing: border-box; 
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border-right: 2px solid black;
 }
 
 .file_order {
     border: 2px solid;
-    margin-top: 10px;
+    margin-top: 10px; 
     border-radius: 20px;
     font-size: 20px;
     padding: 5px;
+    width: 100%; 
+    box-sizing: border-box;
 }
